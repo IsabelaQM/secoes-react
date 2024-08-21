@@ -1,0 +1,131 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.25;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.beneficio {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .beneficio .texto {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .beneficio .imagem {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .beneficio.invertido {
+    flex-direction: row-reverse;
+  }
+
+.containerBeneficios {
+  background-image: url('/img/imgBeneficios.png');
+  height: 1240px;
+}
+
+.tituloSecao{
+  color: #00A54F;
+  text-align: center;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.25;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.beneficio {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 30px;
+}
+
+.beneficio .texto {
+    flex: 1;
+    padding: 20px;
+}
+
+.beneficio.invertido {
+    flex-direction: row-reverse;
+}
+
+.containerBeneficios {
+  background-image: url('/img/imgBeneficios.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: 1244px;
+  padding: 20px 100px;
+  width: 100%;
+}
+
+.beneficio .imagem {
+  flex: 1;
+  padding: 20px;
+  width: 250px;
+}
+
+/* .containerBeneficios {
+  background-image: url('/img/imgBeneficios.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  min-height: 100vh;
+  padding: 20px 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.beneficio .imagem {
+    flex: 1;
+    padding: 20px;
+    max-width: 100%; 
+    height: auto; 
+} */
+
+.tituloSecao {
+    color: #00A54F;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Estilos específicos para os títulos de benefícios */
+.beneficio:nth-child(1) h2 {
+    color: #00A54F; 
+    text-transform: uppercase;
+    align-items: right;
+}
+
+.beneficio:nth-child(2) h2 {
+    color: #E77D1D; 
+    text-transform: uppercase;
+    align-items: left;
+}
+
+.beneficio h3 {
+    color: gray; 
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.beneficio p {
+    padding-top: 20px;
+}
