@@ -5,8 +5,8 @@ function Secao_FAQ() {
     const [faqs, setFaqs] = useState([]);
 
     useEffect(() => {
-        // fetch('https://wilton-filho.github.io/PFJS-GitHub/React/projeto/json/faq.json')
-        fetch('/faq.json')
+        fetch('https://isabelaqm.github.io/json-files/faq.json')
+        //fetch('/faq.json')
             .then(file => file.json())
             .then(info => setFaqs(info.faqs))
             .catch(error => console.error('Erro ao carregar o JSON:', error));
