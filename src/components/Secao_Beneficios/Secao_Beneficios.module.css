@@ -77,7 +77,11 @@
 .beneficio .imagem {
   flex: 1;
   padding: 20px;
-  width: 250px;
+}
+
+.imagem{
+  max-width: 70%;
+  height: auto;
 }
 
 /* .containerBeneficios {
